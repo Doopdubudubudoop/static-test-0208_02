@@ -1,1 +1,44 @@
-<h1><a href="index.html">NH election static site</a></h1>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cool HTML Code Example</title>
+    <style>
+      body {
+        background: linear-gradient(to right, #f0c27b, #4b1248);
+        background-size: 400% 400%;
+        animation: gradient 15s ease infinite;
+      }
+      h1 {
+        font-size: 5rem;
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        animation: rotate 5s linear infinite;
+      }
+      @keyframes gradient {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+      @keyframes rotate {
+        0% {
+          transform: translate(-50%, -50%) rotate(0deg);
+        }
+        100% {
+          transform: translate(-50%, -50%) rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Cool HTML Code!</h1>
+  </body>
+</html>
